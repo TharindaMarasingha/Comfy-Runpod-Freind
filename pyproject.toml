@@ -1,13 +1,18 @@
 [project]
 name = "comfy-runpod-freind"
-description = "Terminate or stop your RunPod pod automatically after Comfy-HF-Uploader has uploaded and verified your ComfyUI outputs."
+description = "Terminate or stop your RunPod pod automatically after Comfy-HF-Uploader has uploaded and verified your ComfyUI outputs. Dry run by default."
 version = "1.0.0"
+license = { file = "LICENSE" }
 authors = [{ name = "Tharinda Marasingha" }]
+requires-python = ">=3.9"
 dependencies = []
+classifiers = ["Operating System :: OS Independent"]
 
 [project.urls]
 Repository = "https://github.com/TharindaMarasingha/Comfy-Runpod-Freind"
+Documentation = "https://github.com/TharindaMarasingha/Comfy-Runpod-Freind#readme"
 "Bug Tracker" = "https://github.com/TharindaMarasingha/Comfy-Runpod-Freind/issues"
 
 [tool.comfy]
+PublisherId = "tharinda"
 DisplayName = "Comfy-Runpod-Freind"

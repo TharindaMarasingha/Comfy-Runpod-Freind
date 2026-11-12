@@ -31,6 +31,15 @@ If **anything** goes wrong with an upload, the pod is **not** deleted, so your f
 
 ## Installation
 
+### From the Comfy Registry (recommended)
+Search for **Comfy-HF-Uploader** and **Comfy-Runpod-Freind** in **ComfyUI Manager → Custom Nodes Manager** and install both. You can also use [comfy-cli](https://github.com/Comfy-Org/comfy-cli):
+```bash
+comfy node install comfy-hf-uploader comfy-runpod-freind
+```
+Registry page: <https://registry.comfy.org/publishers/tharinda>
+
+### Manually
+
 Install **both** packages. You can use **ComfyUI Manager → Install via Git URL** with each URL below, or git:
 
 ```bash
@@ -126,6 +135,10 @@ If the REST API call fails, the node falls back to RunPod's GraphQL API (`podTer
 | `Not all uploads verified ... Pod will NOT be terminated` | Check the `[HF Uploader]` messages above it to see which folder failed. |
 | `REST v2 HTTP 401/403 ...` | The API key has no permission. See [API key and permissions](#api-key-and-permissions). |
 | `HTTP 409` | The pod belongs to a cluster. Delete the cluster in the RunPod console instead. |
+
+## License
+
+[MIT](LICENSE) © 2026 Tharinda Marasingha
 
 ## Credits
 
