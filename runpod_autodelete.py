@@ -215,4 +215,4 @@ class RunPodDeleteAfterUpload:
 
 
 NODE_CLASS_MAPPINGS = {"RunPodDeleteAfterUpload": RunPodDeleteAfterUpload}
-NODE_DISPLAY_NAME_MAPPINGS = {"RunPodDeleteAfterUpload": "RunPod Delete Pod After Upload (by Tharinda Marasingha)"}
+NODE_DISPLAY_NAME_MAPPINGS = {"RunPodDeleteAfterUpload": "RunPod Delete Pod After Upload"}
